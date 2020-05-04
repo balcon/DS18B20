@@ -1610,6 +1610,9 @@
         <name>SPL</name>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_adc1.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_adc2.c</name>
@@ -1619,9 +1622,15 @@
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_awu.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_beep.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_can.c</name>
@@ -1643,6 +1652,9 @@
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_i2c.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_itc.c</name>
@@ -1655,6 +1667,9 @@
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_spi.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_tim1.c</name>
@@ -1688,6 +1703,9 @@
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_uart2.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_uart3.c</name>
@@ -1703,6 +1721,9 @@
         </file>
         <file>
             <name>$EW_DIR$\stm8\config\template\STM8S_StdPeriph_Driver\src\stm8s_wwdg.c</name>
+            <excluded>
+                <configuration>Debug</configuration>
+            </excluded>
         </file>
     </group>
     <file>
